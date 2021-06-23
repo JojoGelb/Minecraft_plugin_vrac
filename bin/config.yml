@@ -1,0 +1,23 @@
+#Ce fichier permet de stocker des valeurs général du plugin
+#En cas d'erreur ou de modification je conseille de le delete sur le serv et de relancer celui ci
+message:
+  #Nom du dossier contenant le monde sur lequel creer la border...
+  nom_du_monde: world
+  insulte:
+  - "Ta mère quand elle marche sur un légo elle l'applatit"
+  - "Tu sais Jamie, la terre c'est comme ta mère, elle est totallement plate"
+  - "Ta tante elle fait du flanc"
+  - "C'est ici que l'on récolte la moitié du sel français"
+  - "Mais c'était sur en fait"
+  god_sword:
+    eclair: Fear me !!
+  bousolle:
+    gui_compass:
+      nom: Interface
+      Lore: Click droit pour accéder au menu
+border:
+  center:
+     x: 0
+     y: 0
+  size: 200
+  speed: 10

@@ -1,0 +1,49 @@
+name: HelloWorld
+version: 1.0
+api-version: 1.13
+author: Jordy
+main: mc_plugin.Main
+description: My first plugin
+
+commands:
+  hello:
+    description: This is the first command
+    aliases: [hi]
+    usage: /test
+  alerte:
+    aliases: [all]
+    description: Message à tout les utilisateurs
+  insulte:
+    description: Lance une insulte au hazard stocké dans les configs
+  
+  
+  join_taupe:
+    description: Rejoint l'équipe des taupes
+  msg_taupe:
+    description: Envoie un message aux taupes
+  
+  
+  spawn:
+    description: TP le joueur en 0,0
+  tpRandom:
+    description: Tp à un endroit random le joueur (bounds = +50,50 autout de sa position)
+  
+  
+  gui_compass:
+    description: Donne un compas utilisé pour manipuler une interface
+  fly_bow:
+    description: Give a funny bow to the user
+  zeus_trident:
+    description: Donne le trident de zeus au joueur
+  create_buddy:
+    description: Créé un faux joueur
+    
+  
+  start_border:
+    description: Lance la border selon les valeurs renseignés dans le fichier config
+  stop_border:
+    description: Arrete la border
+  restart_border:
+    description: Restart la border
+  reset_border:
+    description: Reset la border à sa size d'origine
